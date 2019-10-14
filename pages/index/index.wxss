@@ -1,0 +1,33 @@
+page {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f1f1f1;
+  padding-top: 28rpx;
+  position: relative
+}
+
+.avatar {
+  margin-bottom: -256px;
+}
+
+.canvas {
+  background: #fff;
+  margin-left: 50%;
+  position: relative;
+  left: -128px;
+  width: 256px;
+  height: 256px;
+  border-radius: 6rpx
+}
+
+.btn-save {
+  margin-top: 18rpx;
+  background: #28a745;
+  width: 288rpx;
+  color: #fff
+}
